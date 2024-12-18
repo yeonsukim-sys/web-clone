@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기본 마크업</title>
+</head>
+<body>
+    <style>
+        /* 기본 스타일 */
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+        }
+    
+        h1, h2 {
+          margin: 0;
+        }
+    
+        /* 헤더 스타일 */
+        header {
+          background-color: #000;
+          color: #fff;
+          padding: 20px;
+          text-align: center;
+        }
+    
+        header nav {
+          margin-top: 15px;
+        }
+    
+        header nav a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 15px;
+          font-size: 16px;
+        }
+    
+        /* 메인 배너 스타일 */
+        .banner {
+          background: url('https://www.apple.com/v/home/ak/images/heroes/iphone-15/hero_iphone15__fwlfy7v2itq6_large_2x.jpg') no-repeat center center;
+          background-size: cover;
+          height: 80vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          text-align: center;
+        }
+    
+        .banner h2 {
+          font-size: 3rem;
+        }
+    
+        .banner p {
+          font-size: 1.2rem;
+        }
+    
+        /* 제품 목록 스타일 */
+        .products {
+          display: flex;
+          justify-content: space-around;
+          margin: 30px 0;
+          padding: 0 20px;
+        }
+    
+        .product {
+          width: 30%;
+          text-align: center;
+          background-color: #fff;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+        }
+    
+        .product img {
+          width: 100%;
+          border-radius: 10px;
+        }
+    
+        .product h3 {
+          margin-top: 15px;
+          font-size: 1.5rem;
+        }
+    
+        .product p {
+          color: #666;
+          font-size: 1rem;
+        }
+    
+        /* 푸터 스타일 */
+        footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 20px 0;
+        }
+    
+        footer a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 10px;
+        }
+      </style>
+    </head>
+    
+      <header>
+        <h1>Apple</h1>
+        <nav>
+          <a href="#">Mac</a>
+          <a href="#">iPad</a>
+          <a href="#">iPhone</a>
+          <a href="#">Watch</a>
+          <a href="#">TV</a>
+          <a href="#">Music</a>
+        </nav>
+      </header>
+    
+      
+      <div class="banner">
+        <div>
+          <h2>iPhone 15 Pro</h2>
+          <p>Supercharged by the A17 Pro chip</p>
+        </div>
+      </div>
+    
+      <section class="products">
+        <div class="product">
+          <img src="https://www.apple.com/v/home/ak/images/overview/iphone-15/iphone-15-hero__b6tsktjrhhba_large.jpg" alt="iPhone 15">
+          <h3>iPhone 15</h3>
+          <p>The iPhone that redefines the experience.</p>
+        </div>
+        <div class="product">
+          <img src="https://www.apple.com/v/home/ak/images/overview/apple-watch-8/apple-watch-8-hero__e3l1ja3jzx6u_large.jpg" alt="Apple Watch">
+          <h3>Apple Watch</h3>
+          <p>Your personal health and fitness coach.</p>
+        </div>
+        <div class="product">
+          <img src="https://www.apple.com/v/home/ak/images/overview/macbook-pro/macbook-pro-hero__glqg5ewf0noy_large.jpg" alt="MacBook Pro">
+          <h3>MacBook Pro</h3>
+          <p>More power to do more things.</p>
+        </div>
+      </section>
+    
+      <footer>
+        <p>&copy; 2024 Apple Inc. All rights reserved.</p>
+        <nav>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Sales and Refunds</a>
+        </nav>
+      </footer>
+
+</body>
+</html>
